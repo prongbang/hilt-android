@@ -1,7 +1,5 @@
 package com.prongbang.hilt.android.core.network
 
-import com.prongbang.hilt.android.core.network.LiveNetworkConnection
-import com.prongbang.hilt.android.core.network.NetworkConnection
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

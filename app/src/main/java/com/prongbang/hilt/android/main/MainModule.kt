@@ -12,7 +12,7 @@ import com.prongbang.hilt.android.main.domain.CowSayUseCase
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
-import dagger.hilt.android.components.ApplicationComponent
+import dagger.hilt.android.components.ActivityComponent
 import javax.inject.Qualifier
 
 @Qualifier
@@ -21,7 +21,7 @@ annotation class RemoteMain
 @Qualifier
 annotation class LocalMain
 
-@InstallIn(ApplicationComponent::class)
+@InstallIn(ActivityComponent::class)
 @Module
 abstract class MainModule {
 
